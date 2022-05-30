@@ -3,12 +3,13 @@ package com.example.friends
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.telecom.Call
 import android.widget.ImageView
 import com.squareup.picasso.Picasso
 
 class MainActivity : AppCompatActivity() {
 
-    private  lateinit var image1 : ImageView
+    lateinit var image1 : ImageView
     private  lateinit var image2 : ImageView
     private  lateinit var image3 : ImageView
     private  lateinit var image4 : ImageView
