@@ -39,9 +39,7 @@ class MainActivity : AppCompatActivity() {
 
         val intent : Intent = Intent(this, Details::class.java)
         startActivity(intent)
-        Picasso.get()
-            .load("http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSY8PKG_0-Zk4xUSTTcXODTiuZ-ExtaDAuSBwIKeqbG79S4P25hKpu_mODvKMYQm_Ub")
-            .into(image1)
+
     }
 
     fun images(){
@@ -70,4 +68,6 @@ class MainActivity : AppCompatActivity() {
             .into(image6)
 
     }
+
+
 }
